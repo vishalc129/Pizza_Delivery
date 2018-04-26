@@ -20,6 +20,8 @@ Angular2 pizza delivery App
     
 5.   After installing node_modules , run command
     $ npm start
+    and now open  http://localhost:4200  in your browser 
+    
     
 6.  After npm server started 
     Select Pizza by clicking 'Order Now' and you will see yuor cart is updated on left side of the screen.
