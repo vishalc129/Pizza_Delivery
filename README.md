@@ -1,7 +1,7 @@
 # Pizza_Delivery
 Angular2 pizza delivery App
 
-1.  Install Prerequisite -  npm and node
+1.  Install Prerequisite -  npm and node   (at least node 6.9.x and npm 3.x.x )
 
 1.  Clone the Repository 
 
