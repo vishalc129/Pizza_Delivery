@@ -1,6 +1,8 @@
 # Pizza_Delivery
 Angular2 pizza delivery App
 
+1.  Install Prerequisite -  npm and node
+
 1.  Clone the Repository 
 
 2.  Installing JSON Server using npm 
