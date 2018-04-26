@@ -49,6 +49,7 @@ export class CartComponentComponent   {
     const newOrder  : Order = {userName ,mobileNo,userAddress,OrderedPizzas,orderTotal} as Order;
     
     this.configService.addHero(newOrder).subscribe(hero => this.order.push(hero));
+     document.getElementById("cartText").innerHTML = "Cart";
     this.router.navigate(['/orderPlaced']);
   }
 }
