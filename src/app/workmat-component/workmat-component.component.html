@@ -1,0 +1,11 @@
+<div class="pizza-title">VEG PIZZAS</div>
+<div id="pizza-list">
+  <div class="pizza-box" *ngFor="let item of ourMenu" id="pizza-box{{item.id}}" >
+    <div class="pizza-box-background">
+        <img src="{{ item.image }}" alt="Smiley face" height="200" width="200">
+    </div>
+    <div class="pizza-box-name"><h3>{{item.name}}</h3></div>
+    <div class="pizza-box-desc"><p>{{item.description}}</p></div>
+    <div class="pizza-box-price"><div (click)="addToCart(item)" class="custom-btn">Order Now For Rs. {{item.price}}</div></div>
+  </div>
+</div>

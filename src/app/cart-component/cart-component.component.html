@@ -1,0 +1,18 @@
+<div id="cart-details" >
+  <div id="user-details" >
+    Please Enter Your Details <br>
+   
+    <label>Name</label> <input type="text" [(ngModel)]="userName" id="userNameText"/><br>
+    <label>Mobile No.</label> <input type="text" [(ngModel)]="mobileNo" id="MobNumText"/> <br>
+    <label>Address</label> <textarea type="text" [(ngModel)]="userAddress" id="userAddText"></textarea><br>
+  
+</div>
+
+
+  <div class="pizza-box" *ngFor="let item of cart" id="pizza-box{{item.id}}">
+      
+      <div class="pizza-box-name"><h3>{{item.name}}</h3></div>
+      <div class="pizza-box-desc"><p>{{item.description}}</p></div>
+     </div>
+<div id="placeOrder" *ngIf="cart" (click)="confirmOrder()"> Place Order</div>
+</div>

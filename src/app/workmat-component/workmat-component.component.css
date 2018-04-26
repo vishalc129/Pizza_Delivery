@@ -1,0 +1,98 @@
+#pizza-list{
+    height: auto;
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    overflow: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pizza-box{
+    height: 520px;
+    width: 450px;
+    /*margin: 40px 40px 0px;*/
+	padding: 20px;
+	    background-color: #e61a39;
+	margin-bottom: 10px;
+}
+.pizza-box:nth-child(even){
+	    background-color: #d41b35;
+}
+
+.pizza-box-name h3,.pizza-box-desc p,.pizza-box-price p{
+    margin: 0;
+    text-align: center;
+	font-size: 26px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.pizza-box-desc p{
+    margin: 0;
+    font-size: 13px;
+}
+.pizza-box-background{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 20px 0px;
+	max-height: 300px;
+    min-height: 300px;
+}
+.pizza-box-background img{
+	width:auto;
+	height: auto;
+}
+.pizza-box-name,.pizza-box-desc,.pizza-box-price{
+	color: #fff;
+}
+.pizza-box-price{
+	cursor: pointer;
+}
+.pizza-box-name{
+	text-transform: uppercase;
+    font-size: 26px;
+    min-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	font-weight: 200;
+	
+}
+.pizza-box-desc{
+	    line-height: 1.42857143;
+	font-size: 13px;
+    margin: 0px 20px;
+    height: 36px;
+}
+.pizza-box-price p{
+	margin-top: 40px;	
+}
+.custom-btn{
+	padding: 10px 35px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: #fff;
+    color: #e61a39!important;
+    border: 1px solid #095c91;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.custom-btn:hover{
+	    background: #fff;
+    color: #095c91!important;
+    border: 1px solid #e61a39;
+    font-weight: 700;
+}
+.pizza-title{
+	text-align: center;
+    margin: 30px auto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e61a39;
+}

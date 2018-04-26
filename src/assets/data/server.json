@@ -1,0 +1,88 @@
+{
+  "pizza": [
+    {
+      "id": 1,
+      "name": "PEPPY PANEER",
+      "description": "Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!",
+      "image": "./assets/images/Peppy_Paneer.jpg",
+      "price": 150
+    },
+    {
+      "id": 2,
+      "name": "FARMHOUSE",
+      "description": "Onion I Capsicum I Tomato I Grilled Mushroom",
+      "image": "./assets/images/Farmhouse.jpg",
+      "price": 179
+    },
+    {
+      "id": 3,
+      "name": "MEXICAN GREEn WAVE",
+      "description": "Onion I Crisp Capsicum I Fresh Tomato I Jalapeno sprinkled with  Mexican Herbs",
+      "image": "./assets/images/Mexican_Green_Wave.jpg",
+      "price": 185
+    },
+    {
+      "id": 4,
+      "name": "PANEER MAKHANI",
+      "description": "Paneer and Capsicum on Makhani Sauce",
+      "image": "./assets/images/Paneer_Makhni.jpg",
+      "price": 180
+    },
+    {
+      "id": 5,
+      "name": "5 PEPPER",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/5_Pepper.jpg",
+      "price": 200
+    },
+    {
+      "id": 6,
+      "name": "DELUX VEGGIE",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/Deluxe_Veggie.jpg",
+      "price": 200
+    },
+    {
+      "id": 7,
+      "name": "CORN & CHEESE",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/Corn_&_Cheese.jpg",
+      "price": 200
+    },
+    {
+      "id": 8,
+      "name": "FRESH VEGGIE",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/Fresh_Veggie.jpg",
+      "price": 200
+    },
+    {
+      "id": 9,
+      "name": "PANNER MAKHNI",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/Paneer_Makhni.jpg",
+      "price": 200
+    },
+    {
+      "id": 10,
+      "name": "VEG EXTRAVAGANZ",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/Veg_Extravaganz.jpg",
+      "price": 200
+    },
+    {
+      "id": 11,
+      "name": "MARGHERITA",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/Margherit.jpg",
+      "price": 200
+    },
+    {
+      "id": 12,
+      "name": "DOUBLE CHEESE MARGHERITA",
+      "description": "Peri-Peri Chicken I Red Paprika",
+      "image": "./assets/images/Double_Cheese_Margherita.jpg",
+      "price": 200
+    }
+  ]
+}

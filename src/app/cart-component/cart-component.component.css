@@ -1,0 +1,11 @@
+#placeOrder{
+    color: azure;
+    background: chocolate;
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+}
+#cart-details{
+    display: block;
+    height: 500px;
+}

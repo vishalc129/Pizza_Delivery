@@ -1,0 +1,56 @@
+header{
+    height: auto;
+}
+h1{
+    margin: 0;
+    font-size: 25px;
+}
+#header-top{
+    height: 65px;
+}
+.pizza-header{
+}
+.cart-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	    height: 452px;
+}
+.cart-model{
+	width: 100%;
+    height: 100%;
+	background-color: aquamarine;
+}
+.cart-model img{
+	width: 150px;
+	height: 150px;
+}
+.cart-image{
+	width: 200px;
+    height: 200px;
+    background-color: #12a573;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+	cursor: pointer;
+}
+.cart-image:hover{
+	background-color: #01331c;
+}
+.cart-model p{
+	    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #f00;
+}
+#cartText{
+    height: 24px;
+    width: 100px;
+    margin: 0;
+    background: bisque;
+    cursor: pointer;
+    text-align: center;
+}
+

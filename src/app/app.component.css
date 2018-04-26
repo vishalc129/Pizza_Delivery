@@ -1,0 +1,18 @@
+    app-footer-component{
+        position: relative;
+        bottom: 0;
+        background: aliceblue;
+        width: 99%;
+    }
+    header{
+        height: 110px;
+        background: aliceblue;
+    }
+    h1{
+        margin: 0;
+        font-size: 25px;
+    }
+    #header-top{
+        height: 65px;
+    }
+    
